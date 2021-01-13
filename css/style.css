@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.banner-part{
+    height: 100%;
+}
+.banner-content{
+height: 100%;
+}
+.item-part{
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+.items{
+    padding: 20px;
+    border-radius: 10px;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items-1{
+    background-color: goldenrod;
+}
+.items-2{
+    background-color: plum;
+}
+.items-3{
+    background-color: blue;
+}
+@media screen and (max-width:380px){
+    .items{
+        margin-bottom: 30px;
+    }
+}
